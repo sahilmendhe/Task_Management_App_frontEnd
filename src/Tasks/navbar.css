@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    background-color: #98c5f4;
+    padding: 10px;
+    position: fixed;
+    width: 98%;
+}
+
+
+.navbar img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-out-button {
+    background-color: #007bff;
+    color: rgb(255 255 255);
+    border: none;
+    border-radius: 21px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 67%;
+    font-weight: 600;
+    height: 34px;
+    margin-top: 31px;
+}
+
+.sign-out-button:hover {
+    background-color: #c01818;
+}
